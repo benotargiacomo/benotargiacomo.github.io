@@ -1,0 +1,62 @@
+body, ul {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #c9ada7;
+  background-color: #171724;
+}
+
+h1, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #f5eeeb;
+}
+
+.nome {
+  text-align: center;
+}
+
+.destaque {
+  font-weight: bold;
+}
+
+.habilidades-destaque {
+  font-size: 1.01em;
+  font-weight: 800;
+}
+
+.botao-simples {
+  color: #f5eeeb;
+  background: #4a4e69;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+#foto {
+  width: 200px;
+  border-radius: 50%;
+  float: left;
+  padding: 4px;
+  background-color: white;
+  margin: 40px;
+}
+
+ul li {
+  margin-left: 62px;
+  line-break: 1px;
+}
+
+.header-descricao {
+  height: 280px;
+  display: table-cell;
+  vertical-align: middle;
+  /* border: 5px solid yellow; */
+}
+
+div {
+  /* border: 5px solid yellow; */
+}
+
+li:nth-child(odd) {
+  color: #f5eeeb;
+}
