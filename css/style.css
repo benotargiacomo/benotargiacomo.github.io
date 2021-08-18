@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding:0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Roboto Slab", monospace;
+  background-color: #0d1117;
+}
+
+.main {
+  height: 110px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.github-icon {
+  fill: #58a6ff;
+  animation: blinking 2s linear infinite;
+}
+
+.repository {
+  padding: 5px 5px;
+  color:#58a6ff;
+  font-weight: 300;
+  transition: color .5s ease-out;
+}
+
+.repository:hover {
+  color: #fff;
+}
+
+@keyframes blinking {
+  0% { opacity: 0 } 
+  60% { opacity: 1 } 
+  63% { opacity: 0 } 
+  86% { opacity: 1 }  
+  89% { opacity: 0 } 
+  92% { opacity: 1 } 
+  95% { opacity: 0 }
+  100% { opacity: 1 }
+}
